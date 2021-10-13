@@ -1,0 +1,52 @@
+body {
+    font-weight: 600;
+}
+
+.parent {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.card {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(243, 227, 227, 0.856);
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid blue;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.child1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.child2 {
+    width: 100%;
+}
+
+.btn {
+    width: 100px;
+}
+
+.input-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.input-text {
+    margin: 5px 0px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}

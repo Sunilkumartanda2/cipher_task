@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="parent">
+        <div class="card">
+            <h1>Caesar cipher</h1>
+            <div class="child1">
+                <div class="input-text">
+                    <label for="key">Enter the key</label>
+                    <input type="number" id="key" style="width: 200px;padding: 5px;">
+                </div>
+                <div class="input-text" style="display: flex;flex-direction:row;">
+                    <input type="checkbox" name="enable" id="enable">
+                    <label for="enable">Encryption</label>
+                </div>
+
+                <button class="btn" id="process">Process</button>
+                <button class="btn" id="clear">Clear</button>
+            </div>
+            <div class="child2">
+                <div class="input-box">
+                    <label for="plaintext">Enter the plain text</label>
+                    <input type="text" name="plaintext" id="plaintext" class="input-text">
+                </div>
+
+                <div class="input-box">
+                    <label for="result">Result</label>
+                    <input type="text" name="result" id="result" class="input-text">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
